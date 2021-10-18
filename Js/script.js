@@ -101,26 +101,28 @@ const displayQuestion = function () {
 startButton.addEventListener("click",() => {
   displayQuestion();
   startButton.style.display = "none";
+  //
+  const timerFunc = () => {
+  
+    var counter = 30;
+    setInterval(function () {
+      counter--;
+      if (counter >= 0) {
+        timer.textContent = counter;
+      }else{
+        alert("sorry, out of time");
+        clearInterval(counter);
+      };  
+        //clear timer after alert click ok(add high score in this section?)
+     
+    }, 1000);
+  };    
+   timerFunc(); 
+ 
+  //
 });
 
-// const timerFunc = function () {
-//   (function () {
-//     var counter = 10;
-//     setInterval(function () {
-//       counter--;
-//       if (counter >= 0) {
-//         timer = document.getElementById("timer");
-//         timer.innerHTML = counter;
-//       }
-//       if (counter === 0) {
-//         alert("sorry, out of time");
-//         clearInterval(counter);
-        
-//         //clear timer after alert click ok(add high score in this section?)
-//       }
-//       console.log(counter)
-//     }, 1000);
-//   })};
+
 
 
 
