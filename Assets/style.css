@@ -1,5 +1,39 @@
-#mainBox {
-  height:500px;
-  margin:25px;
+body {
+  background-color:white;
 }
+#mainBox {
+  background-color:#326650;
+  color: #E5C7B3;
+  height:fit-content;
+  width: 500px;
+  margin-top: 10%;
+  margin-left: 30%;
+  padding: 2%;
+  text-align:center;
+  border-radius: 7px;
+}
+.mainTitle {
+  text-align: center;
+}
+.questionsText {
+  text-align: center;
+}
+#startGame {
+  border-radius: 8px;
+  background-color: #326650;
+  border-color: #E5C7B3;
+  color: #E5C7B3;
+}
+
+.answersButtons {
   
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
+}
+.bttn {
+ background-color:#E5C7B3;
+ color: #326650; 
+}
+
