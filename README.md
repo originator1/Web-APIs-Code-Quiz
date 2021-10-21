@@ -33,7 +33,7 @@ ___
 
 ___
 ### Links :
-[Deployed IO Application]()
+[Deployed IO Application](https://originator1.github.io/code_quiz_game/)
 
 [GitHub Repository Link](https://github.com/originator1/code_quiz_game)
 
