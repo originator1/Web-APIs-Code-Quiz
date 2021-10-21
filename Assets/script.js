@@ -113,13 +113,14 @@ startButton.addEventListener("click",() => {
         alert("sorry, out of time");
         clearInterval(counter);
       };  
-        //clear timer after alert click ok(add high score in this section?)
+        //when timer ends alerts user
+        //if click ok, (show high score in this section)
      
     }, 1000);
   };    
    timerFunc(); 
  
-  //
+  
 });
 
 
